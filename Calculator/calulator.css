@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 722px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: #ececec;
+ 
+}
+.containor{
+    padding: 1rem;
+    width: 320px;
+    height: 550px;
+    display: grid;
+    grid-gap:1rem ;
+    grid-template-areas: 
+    'dis dis dis dis'
+    'C Del Divide into '
+    'seven eight nine minus '
+    'four five six plus '
+    'three two one dt '
+    'ze ze equal equal '
+    'dmode dmode dmode dmode'
+    ;
+    border-radius: 10px;
+    background-color: #cccccc;
+    box-shadow: 8px 8px 12px #0000005e, -8px -8px 14px #ffffff;
+
+
+}
+.containor input{
+    font-family: 'Saira Condensed', sans-serif;
+    
+    font-size: 2rem;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    box-shadow: 5px 5px 7px #00000047, -5px -5px 20px #ffffff36;
+}
+input:active{
+    box-shadow: none;
+}
+#display{
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 1.8rem;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #bdbdbd;
+    border: 1px solid #a0a0a0;
+    grid-area: dis; 
+    height: 100px;
+    width:100%;
+    padding: 30px 18px;
+    text-align: right;
+}
+.C{grid-area: C;background-color: #FFB399;color:#f12121;}
+.D{grid-area: Del;background-color: #ADC8FF;color:#3366FF;}
+.divide{grid-area: Divide;padding: 0px 12px;background-color: #fe810a;color:#ffffff;}
+.x{grid-area: into; padding: 0px 7px;background-color: #fe810a;color:#ffffff;}
+.minus{grid-area: minus;background-color: #fe810a;color:#ffffff;}
+.plus{grid-area: plus;background-color: #fe810a;color:#ffffff;}
+.equal{grid-area: equal;background-color: #C5FF99;color:#37ff02;}
+.dot{grid-area: dt;background-color: #fe810a;color:#ffffff;}
+.nine{grid-area: nine;color:white;background-color: #7C7A7A;}
+.eight{grid-area: eight;color:white;background-color: #7C7A7A;}
+.seven{grid-area: seven;color:white;background-color: #7C7A7A;}
+.six{grid-area: six;color:white;background-color: #7C7A7A;}
+.five{grid-area: five;color:white;background-color: #7C7A7A;}
+.four{grid-area: four;color:white;background-color: #7C7A7A;}
+.three{grid-area: three;color:white;background-color: #7C7A7A;}
+.two{grid-area: two;color:white;background-color: #7C7A7A;}
+.one{grid-area: one;color:white;background-color: #7C7A7A;}
+.zero{grid-area: ze;color:white;background-color: #7C7A7A;}
+
+.dark{grid-area: dmode;color:white;background-color: #7C7A7A;}

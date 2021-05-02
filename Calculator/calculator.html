@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calulator.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed&display=swap" rel="stylesheet">
+</head>
+<body id="back">
+    <div id="main" class="containor">
+        <div id="display"></div>
+
+       <input value= "AC" type="button" id="clear" class="C"></input><!--clear-->
+       <input value= "Del" type="button" id="BACK" class="D"></input><!--clear-->
+
+       <input  value = "/" type="button"  class="divide"></input>
+       <input  value="x" type="button" class="x"></input> 
+       <input  value="-" type="button" class="minus"></input> <!--Operations-->
+       <input  value="+" type="button" class="plus"></input> 
+       <input  value="=" type="button" class="equal"></input>
+       <input  value="." type="button" class="dot"></input>
+
+       <input id="numaric9"  value="9" type="button" class="nine"></input>
+       <input id="numaric8"  value="8" type="button" class="eight"></input>
+       <input id="numaric7"  value="7" type="button" class="seven"></input>
+       <input id="numaric6"  value="6" type="button" class="six"></input>
+       <input id="numaric5"  value="5" type="button" class="five"></input>
+       <input id="numaric4"  value="4" type="button" class="four"></input> <!--Numbers-->
+       <input id="numaric3"  value="3" type="button" class="three"></input>
+       <input id="numaric2"  value="2" type="button" class="two"></input>
+       <input id="numaric1"  value="1" type="button" class="one"></input>
+       <input id="numaric0"  value="0" type="button" class="zero"></input>
+       <input id="numaric00" onclick="black()" value="Dark mode" type="button" class="dark"></input>
+       
+    </div>
+    <script src="calculator.js"></script>
+    </body>
+</html>
